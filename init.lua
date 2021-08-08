@@ -1,6 +1,5 @@
 require 'plugins'
 
-local api = vim.api
 local opt = vim.o
 local g = vim.g
 
@@ -12,6 +11,9 @@ opt.cursorline = true
 opt.hidden = true
 opt.tabstop = 4
 opt.shiftwidth = 4
+opt.signcolumn = 'number'
+opt.colorcolumn = '99999'
+opt.completeopt = "menuone,noselect"
 
 g.c_syntax_for_h = 1
 

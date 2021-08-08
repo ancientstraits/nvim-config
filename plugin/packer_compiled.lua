@@ -69,6 +69,10 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/LuaSnip"
+  },
   ["astronauta.nvim"] = {
     loaded = true,
     path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/astronauta.nvim"
@@ -89,6 +93,10 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/gruvbox"
   },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim"
+  },
   kommentary = {
     loaded = true,
     path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/kommentary"
@@ -96,6 +104,10 @@ _G.packer_plugins = {
   ["lsp-status.nvim"] = {
     loaded = true,
     path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/lsp-status.nvim"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim"
   },
   ["lspsaga.nvim"] = {
     loaded = true,
@@ -172,10 +184,6 @@ _G.packer_plugins = {
   ["vim-css-color"] = {
     loaded = true,
     path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/vim-css-color"
-  },
-  ["vim-vsnip"] = {
-    loaded = true,
-    path = "/home/rotzy/.local/share/nvim/site/pack/packer/start/vim-vsnip"
   }
 }
 

@@ -9,10 +9,12 @@ function()
 	use 'joshdick/onedark.vim'
 	use 'folke/tokyonight.nvim'
 	use 'morhetz/gruvbox'
+	use "lukas-reineke/indent-blankline.nvim"
+
 	use 'akinsho/nvim-toggleterm.lua'
 
 	use 'windwp/nvim-autopairs'
-	
+
 	use {
 		'hoob3rt/lualine.nvim',
 		requires = {'kyazdani42/nvim-web-devicons', opt = true}
@@ -30,9 +32,12 @@ function()
 	use 'folke/trouble.nvim'
 	use 'glepnir/lspsaga.nvim'
 	use 'simrat39/symbols-outline.nvim'
+	use 'ray-x/lsp_signature.nvim'
 
 	-- Snippets
-	use 'hrsh7th/vim-vsnip'
+	-- use 'hrsh7th/vim-vsnip'
+	use 'L3MON4D3/LuaSnip'
+	-- see ~/.config/nvim/snip
 	use 'rafamadriz/friendly-snippets'
 
 	use 'tjdevries/astronauta.nvim'
@@ -52,7 +57,7 @@ function()
 	use 'nvim-lua/plenary.nvim'
 	use {
 		'glacambre/firenvim',
-    		run = function() vim.fn['firenvim#install'](0) end 
+    		run = function() vim.fn['firenvim#install'](0) end
 	}
 	
 	use 'kyazdani42/nvim-web-devicons'
